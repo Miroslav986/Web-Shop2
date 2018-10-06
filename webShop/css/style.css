@@ -1,0 +1,112 @@
+ .card .price {
+
+ 	position: absolute;
+ 	top: 8px;
+ 	right: 8px;
+ }
+ .card .card-body .card-link {
+ 	margin-left: 0;
+ }
+ .bg-light {
+ 	background-color: #2366d1 !important;
+ 	
+ }
+
+
+.list-group-item-action { 
+
+ 	background-color: white;
+ 	color:black;
+ 	border:1px solid gray;
+ 	box-shadow: 8px 6px #a9bbd8;
+ 	
+ }
+.list-group-item-action:hover {
+background-color: #2366d1;
+color: white;
+}
+.form-control:focus {
+ border:1px solid  #2366d1;
+}
+.card {
+	border:1px solid  #2366d1;
+	margin-bottom: 12px;
+}
+.card:hover {
+	box-shadow: 8px 6px #a9bbd8;
+}
+.card .card-body .card-link:hover {
+	text-decoration: underline;
+}
+.badge:hover {
+	font-size:100%;
+}
+.dropdown-item:hover {
+	background-color: #2366d1; 
+	color: white;
+	cursor: pointer ;
+}
+.footer {
+  padding: 16px;
+}
+
+.image-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+button {
+	cursor: pointer ;
+}
+
+.card .card-img-top {
+  object-fit: contain;
+  height: 150px;
+}
+
+.old-image {
+  max-height: 175px;
+}
+.pgnt {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.comment {
+  margin: 8px 0;
+}
+
+.comment .comment-info {
+  font-size: .8rem;
+  text-transform: uppercase;
+}
+
+.add-comment-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: stretch;
+}
+
+.add-comment-form .comment-inpt {
+  flex: 1;
+}
+
+.add-comment-form .comment-btn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  padding: 8px 0;
+}
+
+.add-comment-form .comment-btn .btn {
+  margin-right: 0;
+}
+
+.add-comment-form .comment-inpt .form-group {
+  margin: 0;
+}
+
